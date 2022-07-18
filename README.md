@@ -2,6 +2,7 @@
 
 ## Summary
 **For documentation on CICAT, please refer to [MITRE's CICAT repository.](https://github.com/mitre/CICAT)**
+*Note: These changes are NOT associated with MITRE*
 
 This repository contains CICAT files that were changed to support 2022 ATT&CK data. Included in this file are the revised generator and ATK folders, as well as an aditional example. The details of these folders, their contents, and the usage of this repository are presented below.
 
