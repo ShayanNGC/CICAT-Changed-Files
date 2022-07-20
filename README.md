@@ -16,13 +16,15 @@ The generator folder contains all of the python programs needed for CICAT to gen
 - SSoutput.py
 - TACSequence.py
 
-An additional file, 'actorProfiles.py', was also added to this folder. This program allows the user to build an ACTOR PROFILE sheet in the scenario spreadsheet with JSON files. More information about it's usage can be found in the comments of the program. 
+An additional file, 'actorProfiles.py', was also added to this folder. This program allows the user to build the ACTOR PROFILE sheet in the scenario spreadsheet with JSON files. More information about it's usage can be found in the comments of the program. 
 
 ### ATK
 This folder contains the modern ATT&CK data in the form of a JSON file. Data within this folder was gathered from MITRE's [ATT&CK v11.2 repository](https://github.com/mitre/cti/releases/tag/ATT%26CK-v11.2). The data from ATT&CK v11.2 was parsed through and formatted for use with CICAT. 
 
 ### example2
-This folder contains an additional example that can be ran by CICAT. The network topology diagram was sourced from [here](https://tonymangan.wordpress.com/network-issues/uml-and-network-architecture-diagrams/). Labels and zones were added to provide CICAT with valid inputs. 
+This folder contains an additional example that can be ran by CICAT. The network topology diagram was sourced from [here](https://tonymangan.wordpress.com/network-issues/uml-and-network-architecture-diagrams/). Labels and zones were added to provide CICAT with valid inputs.
+
+There is another folder in example2 named 'threat_actors'. This folder contains some examples of threat actor JSON files that can be used by actorProfiles.py to construct the ACTOR PROFILE sheet in the scenario spreadsheet.
 
 ## Usage
 To adapt CICAT to work with 2022 ATT&CK data, follow these steps:
