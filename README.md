@@ -16,6 +16,8 @@ The generator folder contains all of the python programs needed for CICAT to gen
 - SSoutput.py
 - TACSequence.py
 
+An additional file, 'actorProfiles.py', was also added to this folder. This program allows the user to build an ACTOR PROFILE sheet in the scenario spreadsheet with JSON files. More information about it's usage can be found in the comments of the program. 
+
 ### ATK
 This folder contains the modern ATT&CK data in the form of a JSON file. Data within this folder was gathered from MITRE's [ATT&CK v11.2 repository](https://github.com/mitre/cti/releases/tag/ATT%26CK-v11.2). The data from ATT&CK v11.2 was parsed through and formatted for use with CICAT. 
 
